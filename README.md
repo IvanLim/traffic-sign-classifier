@@ -3,6 +3,7 @@
 ## The project requires the following libraries/software:
 
 - Python 3.5.2
+- Matplotlib 2.0.0
 - Tensorflow 1.0.0
 - Keras 1.2.1
 - Numpy 1.11.3
