@@ -43,11 +43,12 @@ Here&#39;s a quick summary of the original dataset
 
 The code for this step is contained in the third code cell of the IPython notebook.
 
-** REPORT IMAGE TO BE ADDED **
+![Before Augmentation](report/1_num_examples_before_aug.png "Dataset before augmentation")
+
 
 This is a chart showing the training examples available for each sign in the original data set. As you can see, not all signs have sufficient training data. I have written some code to add distortions to the original image to generate variants, so that they may be used as additional training data.
 
-** REPORT IMAGE TO BE ADDED **
+![After Augmentation](report/2_num_examples_after_aug.png "Dataset after augmentation")
 
 After augmenting the data, each of the traffic signs had 2500 training examples to work with.
 
@@ -71,7 +72,7 @@ Here is an example of a traffic sign image before and after **grayscaling** and 
 
 | Original image | Greyscale with histogram equalization |
 | :---: | :---: |
-| ** IMAGE **    | ** IMAGE ** |
+| ![Original image](report/3_original_image.png "Original image") | ![Processed image](report/4_greyscale_equalhist_image.png "Processed image") |
 
 
 ### Data preparation and augmentation
@@ -93,7 +94,7 @@ Here is an example of an original image and an augmented image:
 
 | Original image | Image with distortions applied |
 | --- | --- |
-| ** IMAGE ** | ** IMAGE ** |
+| ![Original image](report/3_original_image.png "Original image") | ![Perturbed image](report/5_perturbed_image.png "Perturbed image") |
 
 I have tried a few combinations of these distortions: Only one per image, applying all operations to every image, and a random mix of operations. So far, a random mix of distortion operations has produced the best results.
 
@@ -173,8 +174,9 @@ As the results are consistent across the training, test, and validation sets, it
 
 Here are five German traffic signs that I found on the web:
 
-| ** IMAGES ** | ** IMAGES ** |
-| --- | --- |
+| Image 1 | Image 2 | Image 3 | Image 4 | Image 5 |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| ![Test sign 1](report/6_testsign_1.png "Test sign 1") | ![Test sign 2](report/7_testsign_2.png "Test sign 2") | ![Test sign 3](report/8_testsign_3.png "Test sign 3") | ![Test sign 4](report/9_testsign_4.png "Test sign 4") | ![Test sign 5](report/10_testsign_5.png "Test sign 5") |
 
 ### Pre-test expectations
 
@@ -202,9 +204,13 @@ The model correctly guessed **4 of the 5** traffic signs, which gives an accurac
 
 The following table shows the test images and their corresponding top 5 predictions and softmax probabilities.
 
-| ** IMAGES ** |
-| --- |
-| ** IMAGES ** |
+| Prediction Results |
+| :----------------- |
+| ![Softmax Probabilities 1](report/11_softmax_1.png "Softmax probabilities 1") |
+| ![Softmax Probabilities 2](report/12_softmax_2.png "Softmax probabilities 2") |
+| ![Softmax Probabilities 3](report/13_softmax_3.png "Softmax probabilities 3") |
+| ![Softmax Probabilities 4](report/14_softmax_4.png "Softmax probabilities 4") |
+| ![Softmax Probabilities 5](report/15_softmax_5.png "Softmax probabilities 5") |
 
 ### Observations on softmax probabilities
 
