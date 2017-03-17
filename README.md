@@ -1,16 +1,5 @@
 # German Traffic Sign Recognition Project
 
-## The project requires the following libraries/software:
-
-- Python 3.5.2
-- Matplotlib 2.0.0
-- Tensorflow 1.0.0
-- Keras 1.2.1
-- Numpy 1.11.3
-- OpenCV 3.1.0
-- SciKit-Learn 0.18
-- Jupyter Notebook 4.2.1
-
 ## The goals / steps of this project are the following:
 
 - Load the data set (see below for links to the project data set)
@@ -21,6 +10,17 @@
 - Summarize the results into this written report
 
 This project is graded against the [project rubric](https://review.udacity.com/#!/rubrics/481/view).
+
+## The project requires the following libraries/software:
+
+- Python 3.5.2
+- Matplotlib 2.0.0
+- Tensorflow 1.0.0
+- Numpy 1.11.3
+- OpenCV 3.1.0
+- SciKit-Learn 0.18
+- IPython 5.1.0
+- Jupyter Notebook 4.2.1
 
 ## Data Set Summary &amp; Exploration
 
